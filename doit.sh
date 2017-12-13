@@ -68,37 +68,36 @@ wget http://www.gigamonkeys.com/book/conclusion-whats-next.html
 
 echo "Render book..."
 
-htmldoc -t pdf13 -f "all-01.pdf" --book --toclevels 3 --no-numbered --toctitle "Table of Contents" --title --linkstyle plain --size Letter --left 1.00in --right 0.50in --top 0.50in --bottom 0.50in --header .t. --header1 ... --footer h.1 --nup 1 --tocheader .t. --tocfooter ..i --duplex --portrait --color --no-pscommands --no-xrxcomments --compression=1 --jpeg=0 --fontsize 9.0 --fontspacing 1.2 --headingfont Helvetica --bodyfont Helvetica --headfootsize 9.0 --headfootfont Helvetica --charset iso-8859-1 --links --embedfonts --pagemode outline --pagelayout single --firstpage p1 --pageeffect none --pageduration 10 --effectduration 1.0 --no-encryption --permissions all  --owner-password ""  --user-password "" --browserwidth 680 --no-strict --no-overflow
-title.html
-introduction-why-lisp.html
-lather-rinse-repeat-a-tour-of-the-repl.html
-practical-a-simple-database.html
-syntax-and-semantics.html
-functions.html
-variables.html
-macros-standard-control-constructs.html
-macros-defining-your-own.html
-practical-building-a-unit-test-framework.html
-numbers-characters-and-strings.html
-collections.html
-they-called-it-lisp-for-a-reason-list-processing.html
-beyond-lists-other-uses-for-cons-cells.html
-files-and-file-io.html
-practical-a-portable-pathname-library.html
-object-reorientation-generic-functions.html
-object-reorientation-classes.html
-a-few-format-recipes.html
-beyond-exception-handling-conditions-and-restarts.html
-the-special-operators.html
-programming-in-the-large-packages-and-symbols.html
-loop-for-black-belts.html
-practical-a-spam-filter.html
-practical-parsing-binary-files.html
-practical-an-id3-parser.html
-practical-web-programming-with-allegroserve.html
-practical-an-mp3-database.html
-practical-a-shoutcast-server.html
-practical-an-mp3-browser.html
-practical-an-html-generation-library-the-interpreter.html
-practical-an-html-generation-library-the-compiler.html
+htmldoc -t pdf13 -f "book.pdf" --book --toclevels 3 --no-numbered --toctitle "Table of Contents" --title "Practical Common Lisp" --linkstyle plain --size Letter --left 1.00in --right 0.50in --top 0.50in --bottom 0.50in --header .t. --header1 ... --footer h.1 --nup 1 --tocheader .t. --tocfooter ..i --duplex --portrait --color --no-pscommands --no-xrxcomments --compression=1 --jpeg=0 --fontsize 9.0 --fontspacing 1.2 --headingfont Helvetica --bodyfont Helvetica --headfootsize 9.0 --headfootfont Helvetica --charset iso-8859-1 --links --embedfonts --pagemode outline --pagelayout single --firstpage p1 --pageeffect none --pageduration 10 --effectduration 1.0 --no-encryption --permissions all  --owner-password ""  --user-password "" --browserwidth 680 --no-strict --no-overflow  \
+introduction-why-lisp.html \
+lather-rinse-repeat-a-tour-of-the-repl.html \
+practical-a-simple-database.html \
+syntax-and-semantics.html \
+functions.html \
+variables.html \
+macros-standard-control-constructs.html \
+macros-defining-your-own.html \
+practical-building-a-unit-test-framework.html \
+numbers-characters-and-strings.html \
+collections.html \
+they-called-it-lisp-for-a-reason-list-processing.html \
+beyond-lists-other-uses-for-cons-cells.html \
+files-and-file-io.html \
+practical-a-portable-pathname-library.html \
+object-reorientation-generic-functions.html \
+object-reorientation-classes.html \
+a-few-format-recipes.html \
+beyond-exception-handling-conditions-and-restarts.html \
+the-special-operators.html \
+programming-in-the-large-packages-and-symbols.html \
+loop-for-black-belts.html \
+practical-a-spam-filter.html \
+practical-parsing-binary-files.html \
+practical-an-id3-parser.html \
+practical-web-programming-with-allegroserve.html \
+practical-an-mp3-database.html \
+practical-a-shoutcast-server.html \
+practical-an-mp3-browser.html \
+practical-an-html-generation-library-the-interpreter.html \
+practical-an-html-generation-library-the-compiler.html \
 conclusion-whats-next.html
