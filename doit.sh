@@ -37,7 +37,8 @@ wget http://www.gigamonkeys.com/book/conclusion-whats-next.html
 
 echo "Render book..."
 
-echo '<!DOCTYPE html> <html> <head> <title>Practical Common Lisp</title> </head> <body></body></html>' > title.html
+# You need this dummy file to define the title of the book
+echo '<!DOCTYPE html><html><head><title>Practical Common Lisp</title></head><body></body></html>' > title.html
 
-# You can use htmldoc with '--batch' option to change the output style
+# You can use htmldoc without '--batch' option to change the output style
 htmldoc --bacth render.book
