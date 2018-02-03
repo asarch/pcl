@@ -41,4 +41,4 @@ echo "Render book..."
 echo '<!DOCTYPE html><html><head><title>Practical Common Lisp</title></head><body></body></html>' > title.html
 
 # You can use htmldoc without '--batch' option to change the output style
-htmldoc --bacth render.book
+htmldoc --batch render.book
